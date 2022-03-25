@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+</head>
+<link rel="stylesheet" href="calculator.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+<body>
+    <h1 class="heading">
+        Online Calculator
+    </h1>
+
+    <h3 class="sub_heading">
+        -Made by Rushikesh Patil
+    </h3>
+    
+</body>
+
+<form name="form1" class="calci" action="Calculator.html">
+
+ <input type="text" name="answer" id="display">
+ <br>
+ <input type="button" class="btnDes" value="C" onclick="form1.answer.value=''">
+ <input type="button" class="btnDes" value="%" onclick="form1.answer.value+='%'">
+ <input type="button" class="btnDes" value="" id="backspace" onclick="form1.answer.value=form1.answer.value.substring(0,form1.answer.value.length*1-1)" >
+ <input type="button" class="uniDes" value="/" onclick="form1.answer.value+='/'">
+ <br>
+ <input type="button" class="btnDes" value="7" onclick="form1.answer.value+='7'">
+ <input type="button" class="btnDes" value="8" onclick="form1.answer.value+='8'">
+ <input type="button" class="btnDes" value="9" onclick="form1.answer.value+='9'">
+ <input type="button" class="uniDes" value="*" onclick="form1.answer.value+='*'">
+ <br>
+ <input type="button" class="btnDes" value="4" onclick="form1.answer.value+='4'">
+ <input type="button" class="btnDes" value="5" onclick="form1.answer.value+='5'">
+ <input type="button" class="btnDes" value="6" onclick="form1.answer.value+='6'">
+ <input type="button" class="uniDes" value="-" onclick="form1.answer.value+='-'">
+ <br>
+ <input type="button" class="btnDes" value="1" onclick="form1.answer.value+='1'">
+ <input type="button" class="btnDes" value="2" onclick="form1.answer.value+='2'">
+ <input type="button" class="btnDes" value="3" onclick="form1.answer.value+='3'">
+ <input type="button" class="uniDes" value="+" onclick="form1.answer.value+='+'">
+ <br>
+ <input type="button" class="btnDes" value="0" onclick="form1.answer.value+='0'">
+ <input type="button" class="btnDes" value="00" onclick="form1.answer.value+='00'">
+ <input type="button" class="btnDes" value="." onclick="form1.answer.value+='.'">
+ <input type="button" class="uniDes" value="=" onclick="form1.answer.value=eval(form1.answer.value)">
+ 
+
+
+</form>
+
+
+
+</html>
