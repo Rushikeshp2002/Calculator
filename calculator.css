@@ -52,7 +52,7 @@ body{
 
 
 
-#backspace{
+/* #backspace{
     background-image: url("icons8-back-arrow-100.png");
     background-color: transparent;
     background-repeat: no-repeat;
@@ -64,7 +64,7 @@ body{
     top: -3px;
     margin: auto 1px;
     
-}
+} */
 .btnDes{
     
     margin: 2px 10px;
